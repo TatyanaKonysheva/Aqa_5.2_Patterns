@@ -58,7 +58,7 @@ public class DataGenerator {
 
         public static RegistrationDto getRegisteredUser(String status) {
             var registeredUser = getUser(status); // TODO: объявить переменную registeredUser и присвоить ей значение возвращённое getUser(status).
-            sendRequest(registeredUser);// Послать запрос на регистрацию пользователя с помощью вызова sendRequest(registeredUser)
+            sendRequest(registeredUser); // Послать запрос на регистрацию пользователя с помощью вызова sendRequest(registeredUser)
             return registeredUser;
         }
     }
